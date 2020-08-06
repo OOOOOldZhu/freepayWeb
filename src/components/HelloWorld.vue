@@ -8,7 +8,7 @@
 
         <div class="kaixin">
           <div id="kaixin_red_line"/>
-          <font id="kaixin_title">开心0元购</font>
+          <div id="kaixin_title">开心0元购</div>
         </div>
         <font class="noti">连续打卡全额返 就在开心0元购</font>
         <div class="btnP" @click="openNewTab()">
@@ -71,10 +71,11 @@
 
   .kaixin {
     position: relative;
+    display: table;
   }
 
   #kaixin_red_line {
-    height: 34px;
+    height: 20px;
     width: 100%;
     background-color: #FB4645;
     position: absolute;
@@ -84,15 +85,15 @@
 
   #kaixin_title {
     color: black;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   .noti {
-    margin-top: 57px;
+    margin-top: 20px;
     color: #FB4644;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
     white-space:nowrap;
   }
@@ -101,7 +102,7 @@
     width: 300px;
     height: 66px;
     position: relative;
-    margin-top: 160px;
+    margin-top: 70px;
     border-radius: 33px;
     background-color: #FB4644;
   }
@@ -140,14 +141,14 @@
   .WordP{
     text-align: left;
   }
-  .WordP .h1{
-    font-size: 38px;
+  .WordP h1{
+    font-size: 30px;
   }
-  .WordP .h1{
-    font-size: 28px;
+  .WordP h2{
+    font-size: 20px;
   }
-  .WordP .h3{
-    font-size: 16px;
+  .WordP h3{
+    font-size: 14px;
   }
   .img1{
     margin-left: 200px;

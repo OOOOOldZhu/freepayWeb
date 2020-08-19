@@ -1,0 +1,23 @@
+
+.parrent{
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.titil{
+  font-family: PingFangSC-Regular;
+  font-size: 28px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+}
+
+.pTitle{
+  font-size: 22px;
+}
+
+.abc{
+  margin-left: 45px;
+}
